@@ -1,0 +1,12 @@
+#not-about-reactjs {
+  text-align: center;
+  opacity: 0;
+}
+
+#not-about-reactjs.active {
+  opacity: 1;
+}
+
+#not-about-reactjs section {
+  width: 100%;
+}

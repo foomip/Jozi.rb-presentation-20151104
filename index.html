@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Reactive programming priciples - by Nelson Pascoal</title>
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link rel="stylesheet" href="stylesheets/fonts.css" />
+    <link rel="stylesheet" href="stylesheets/presentation.css" />
+    <link rel="stylesheet" href="stylesheets/intro.css" />
+    <link rel="stylesheet" href="stylesheets/not-about-reactjs.css" />
+
+    <link rel="shortcut icon" href="bower_components/impress.js/favicon.png" />
+    <link rel="apple-touch-icon" href="bower_components/impress.js/apple-touch-icon.png" />
+  </head>
+  <!-- <body class="impress-not-supported"> -->
+  <body>
+    <div class="fallback-message">
+      <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+      <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+
+    <div id="impress">
+      <div id="intro" class="step slide reactive-bg" data-x="-1000" data-y="-1500">
+        <div>
+          <h1 id="title">Reactive Programming Principles</h1>
+          <section>By <strong>Nelson Pascoal</strong></section>
+        </div>
+      </div>
+
+      <div id="reactjs" class="step" data-x="500" data-y="-1700">
+        <img src="images/reactlogo.png"/>
+      </div>
+
+      <div id="not-about-reactjs" class="step" data-x="500" data-y="-1575" data-scale="1.5">
+        <img src="images/reactlogo.png"/>
+        <section>Is <strong>not</strong> what this talk is about</section>
+      </div>
+
+      <div id="what-is-reactive" class="step slide reactive-bg" data-x="700" data-y="1100" data-z="-3000" data-rotate="60" data-scale="1">
+        sfsfdsf
+      </div>
+    </div>
+    <script src="bower_components/impress.js/js/impress.js"></script>
+    <script>impress().init();</script>
+  </body>
+</html>
