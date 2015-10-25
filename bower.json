@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "impress.js": "~0.5.3"
+    "impress.js": "~0.5.3",
+    "highlightjs": "~8.8.0"
   }
 }

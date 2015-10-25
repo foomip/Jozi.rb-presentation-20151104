@@ -1,0 +1,28 @@
+#what-is-reactive, .what-is-reactive {
+  text-align: center;
+}
+
+.what-is-reactive {
+  opacity: 0 !important;
+}
+
+.what-is-reactive.active {
+  opacity: 1 !important;
+}
+
+#what-is-reactive h1, .what-is-reactive h1 {
+  padding-top: 3em;
+}
+
+.what-is-reactive span {
+  text-align: left;
+}
+
+.what-is-reactive span ul {
+  margin-left: 6em;
+  line-height: 1.5em;
+}
+
+.what-is-reactive span ul li.highlight {
+  color: red;
+}
