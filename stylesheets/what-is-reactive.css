@@ -3,11 +3,11 @@
 }
 
 .what-is-reactive {
-  opacity: 0 !important;
+  display: none;
 }
 
 .what-is-reactive.active {
-  opacity: 1 !important;
+  display: block;
 }
 
 #what-is-reactive h1, .what-is-reactive h1 {
@@ -20,7 +20,7 @@
 
 .what-is-reactive span ul {
   margin-left: 6em;
-  line-height: 1.5em;
+  line-height: 3em;
 }
 
 .what-is-reactive span ul li.highlight {
