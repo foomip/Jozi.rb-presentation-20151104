@@ -509,3 +509,11 @@ body     { pointer-events: none; }
 .link-note {
   font-size: 80%;
 }
+
+.hide-inactive {
+  visibility: hidden;
+}
+
+.hide-inactive.active {
+  visibility: visible;
+}
