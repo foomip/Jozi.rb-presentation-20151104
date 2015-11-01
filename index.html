@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="stylesheets/flatmap-rubycode.css" />
     <link rel="stylesheet" href="stylesheets/binary-search-tree.css" />
     <link rel="stylesheet" href="stylesheets/why-should-you-consider-rp.css" />
+    <link rel="stylesheet" href="stylesheets/why-I-like-actor-model.css" />
+    <link rel="stylesheet" href="stylesheets/more-in-line-with-the-world.css" />
 
     <link rel="shortcut icon" href="bower_components/impress.js/favicon.png" />
     <link rel="apple-touch-icon" href="bower_components/impress.js/apple-touch-icon.png" />
@@ -65,9 +67,9 @@
         <img src="images/main.pseudo.png"/>
       </div>
 
-      <div id="flatmap-rubycode" class="step" data-rotate="45" data-scale="1" data-x="1300" data-y="800">
+      <div id="flatmap-rubycode" class="step" data-rotate="45" data-scale="1" data-x="1300" data-y="750">
          <img src="images/tree.ruby.png"/>
-         <img src="images/main.ruby.png"/>
+         <img src="images/main.ruby.png" style="width:52%;"/>
       </div>
 
       <div id="binary-search-tree" class="step" data-rotate="45" data-scale="1" data-x="600" data-y="1400">
@@ -122,7 +124,12 @@
           <span class="message-points">
             <ul>
               <li>Message driven</li>
-              <li class="highlight">Asynchronous <a class="link-note" target="_blank" href="http://tinyurl.com/nqnakz6">http://tinyurl.com/nqnakz6</a></li>
+              <li class="highlight">
+                Asynchronous&nbsp;
+                <a class="link-note" target="_blank" href="http://tinyurl.com/nqnakz6">http://tinyurl.com/nqnakz6</a>
+                &nbsp;&amp;&nbsp;
+                <a class="link-note" target="_blank" href="http://tinyurl.com/pz869qe">http://tinyurl.com/pz869qe</a>
+              </li>
               <li>Non-blocking IO</li>
               <li>and Back Pressure</li>
             </ul>
@@ -132,6 +139,10 @@
 
       <div id="what-is-reactive-asynchronous-screenshot" class="step hide-inactive" data-rotate="90" data-x="-1200" data-y="1100" data-z="-3500">
         <img src="images/asynchronous-example.png"/>
+      </div>
+
+      <div id="what-is-reactive-asynchronous-screenshot-concurrent-ruby" class="step hide-inactive" data-rotate="90" data-x="-1200" data-y="1100" data-z="-3500">
+        <img src="images/concurrent-ruby.png"/>
       </div>
 
       <div id="what-is-reactive-nonblocking-io" class="step slide reactive-bg what-is-reactive" data-rotate="90" data-x="-1200" data-y="1100" data-z="-3000">
@@ -192,7 +203,31 @@
         </div>
       </div>
 
-      <div id="thank-you-end" class="step" data-y="-500" data-x="1000" data-z="0" data-scale="6">
+      <div id="why-I-like-actor-model" class="step slide reactive-bg" data-rotate="180" data-x="-3000" data-y="-600" data-z="-1000">
+        <div>
+          <section>
+            Actor model is reactive
+          </section><br/>
+          <ul>
+            <li>Message driven</li>
+            <li>Asynchronous</li>
+            <li>Can be used to isolate blocking io (careful with threading)</li>
+            <li>Correct message handling can give you back pressure (very manual though)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="more-in-line-with-the-world" class="step" data-rotate="180" data-x="-3000" data-y="-1600" data-z="-1000" data-scale="2">
+        <h1>More in line with how the world works</h1>
+        <img src="images/coffee-shop.png"/>
+      </div>
+
+      <div id="an-example-app" class="step" data-rotate="270" data-x="-1600" data-y="-400" data-z="-1000">
+        <h1>Let's look at an example</h1>
+        <section>A coffee shop simulator :)</section>
+      </div>
+
+      <div id="thank-you-end" class="step" data-y="-800" data-x="2000" data-scale="6" data-rotate="360">
         THANK YOU
       </div>
     </div>
